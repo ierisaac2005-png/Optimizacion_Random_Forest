@@ -41,11 +41,11 @@ Resultados guardados en el notebook, con Scikit-learn 1.6.1:
 
 | Modelo | Variables | F1 maligno | Recall | Precision | ROC-AUC | Entrenamiento (s) |
 |---|---:|---:|---:|---:|---:|---:|
-| Base | 30 | 0.9630 | 0.9286 | 1.0000 | 0.9929 | 0.2915 |
-| Reducido | 15 | 0.9367 | 0.8810 | 1.0000 | 0.9921 | 0.2365 |
-| Optimizado | 15 | 0.9367 | 0.8810 | 1.0000 | 0.9904 | 0.2444 |
+| Base | 30 | 0.9630 | 0.9286 | 1.0000 | 0.9929 | 0.3986 |
+| Reducido | 15 | 0.9367 | 0.8810 | 1.0000 | 0.9921 | 0.3425  |
+| Optimizado | 15 | 0.9367 | 0.8810 | 1.0000 | 0.9904 |0.3250 |
 
-La búsqueda consumió **67.33 segundos adicionales**, incluyendo el reajuste automático. Los tiempos dependen del equipo y se midieron una sola vez.
+La búsqueda consumió **52.21 s segundos adicionales**, incluyendo el reajuste automático. Los tiempos dependen del equipo y se midieron una sola vez.
 
 La mejor configuración de la búsqueda fue `n_estimators=100`, `max_depth=8`, `min_samples_split=10` y `max_features="sqrt"`. El término “optimizado” identifica el resultado de la búsqueda; no implica que supere a las alternativas.
 
@@ -56,7 +56,7 @@ La mejor configuración de la búsqueda fue `n_estimators=100`, `max_depth=8`, `
 
 ```bash
 python -m pip install -r requirements.txt
-jupyter notebook Optimizacion_Random_Forest.ipynb
+jupyter notebook "Optimizacion_Random_Forest .ipynb"
 ```
 
 `requirements.txt` fija Scikit-learn en la versión de los resultados guardados; las otras dependencias no están fijadas. No representa un entorno completamente congelado.
