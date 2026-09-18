@@ -44,7 +44,7 @@ La mejor configuración de la búsqueda fue `n_estimators=100`, `max_depth=8`, `
 
 ## Ejecutar en Google Colab
 
-[![Abrir Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ierisaac2005-png/Optimizacion_Random_Forest/blob/main/Optimizacion_Random_Forest.ipynb)
 
 Este botón abre Colab. El enlace directo al notebook se completará cuando se confirme la URL del repositorio.
 
