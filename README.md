@@ -1,7 +1,11 @@
 ## Ejecutar en Google Colab
 
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ierisaac2005-png/Optimizacion_Random_Forest/blob/main/Optimizacion_Random_Forest%20.ipynb)
+1. Descarga `Optimizacion_Random_Forest.ipynb`.
+2. En Colab, selecciona **Archivo → Subir notebook** y carga el archivo.
+3. Selecciona **Entorno de ejecución → Ejecutar todas**. No se necesita GPU.
 
+Para conservar cambios en GitHub desde Colab, utiliza **Archivo → Guardar una copia en GitHub**, selecciona el repositorio y revisa la ruta del archivo antes de guardar. El enlace de Colab no sincroniza automáticamente las modificaciones
 
 # Random Forest Optimization
 
@@ -47,15 +51,6 @@ La mejor configuración de la búsqueda fue `n_estimators=100`, `max_depth=8`, `
 
 **Conclusión:** reducir las variables disminuyó F1 en 0.0263; el ajuste posterior no recuperó esa pérdida. Se recomienda el modelo base, también favorecido por la comparación de validación cruzada. Optimizar exige comprobar la ventaja, sin darla por garantizada.
 
-
-
-Este botón abre Colab. El enlace directo al notebook se completará cuando se confirme la URL del repositorio.
-
-1. Descarga `Optimizacion_Random_Forest.ipynb`.
-2. En Colab, selecciona **Archivo → Subir notebook** y carga el archivo.
-3. Selecciona **Entorno de ejecución → Ejecutar todas**. No se necesita GPU.
-
-Para conservar cambios en GitHub desde Colab, utiliza **Archivo → Guardar una copia en GitHub**, selecciona el repositorio y revisa la ruta del archivo antes de guardar. El enlace de Colab no sincroniza automáticamente las modificaciones.
 
 ## Ejecutar localmente
 
