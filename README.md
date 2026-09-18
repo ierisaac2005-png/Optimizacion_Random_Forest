@@ -1,3 +1,8 @@
+## Ejecutar en Google Colab
+
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ierisaac2005-png/Optimizacion_Random_Forest/blob/main/Optimizacion_Random_Forest.ipynb)
+
+
 # Random Forest Optimization
 
 Comparación controlada de un Random Forest base, una versión con selección de características y una configuración ajustada mediante validación cruzada.
@@ -42,9 +47,7 @@ La mejor configuración de la búsqueda fue `n_estimators=100`, `max_depth=8`, `
 
 **Conclusión:** reducir las variables disminuyó F1 en 0.0263; el ajuste posterior no recuperó esa pérdida. Se recomienda el modelo base, también favorecido por la comparación de validación cruzada. Optimizar exige comprobar la ventaja, sin darla por garantizada.
 
-## Ejecutar en Google Colab
 
-[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ierisaac2005-png/Optimizacion_Random_Forest/blob/main/Optimizacion_Random_Forest.ipynb)
 
 Este botón abre Colab. El enlace directo al notebook se completará cuando se confirme la URL del repositorio.
 
