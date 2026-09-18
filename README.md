@@ -1,6 +1,6 @@
 ## Ejecutar en Google Colab
 
-[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ierisaac2005-png/Optimizacion_Random_Forest/blob/main/Optimizacion_Random_Forest.ipynb)
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ierisaac2005-png/Optimizacion_Random_Forest/blob/main/Optimizacion_Random_Forest%20.ipynb)
 
 
 # Random Forest Optimization
